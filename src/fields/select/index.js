@@ -65,7 +65,7 @@ export default class SelectField extends Component {
       <View>
         <ListItem icon onPress={() => this.toggleModalVisible()}>
           <Body>
-            <Text>{attributes.label}</Text>
+            <Text style={{ color: theme.labelActiveColor }} >{attributes.label}</Text>
           </Body>
           <Right>
             <View style={{ width: deviceWidth / 2, alignItems: 'flex-end' }}>
